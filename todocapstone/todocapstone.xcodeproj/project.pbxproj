@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B993D7A29FBA7E100A5B233 /* todocapstoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B993D7929FBA7E100A5B233 /* todocapstoneApp.swift */; };
+		8B993D7C29FBA7E100A5B233 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B993D7B29FBA7E100A5B233 /* ContentView.swift */; };
+		8B993D7E29FBA7E400A5B233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B993D7D29FBA7E400A5B233 /* Assets.xcassets */; };
+		8B993D8129FBA7E400A5B233 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B993D8029FBA7E400A5B233 /* Preview Assets.xcassets */; };
+		8B993D8A29FBAE3A00A5B233 /* main_screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B993D8929FBAE3A00A5B233 /* main_screen.swift */; };
+		8B993D8C29FCF45800A5B233 /* avartar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B993D8B29FCF45800A5B233 /* avartar.swift */; };
+		8B993D8E29FD696500A5B233 /* setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B993D8D29FD696500A5B233 /* setting.swift */; };
+		8B993D9029FE3BE800A5B233 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B993D8F29FE3BE800A5B233 /* Home.swift */; };
+		8B993D9229FE3C2000A5B233 /* SleepHour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B993D9129FE3C2000A5B233 /* SleepHour.swift */; };
+		8B993D9629FEDA8F00A5B233 /* StressInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B993D9529FEDA8F00A5B233 /* StressInputView.swift */; };
+		8B993D9B2A035C7600A5B233 /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B993D9A2A035C7600A5B233 /* Ring.swift */; };
+		8B993D9D2A0361C600A5B233 /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B993D9C2A0361C600A5B233 /* Step.swift */; };
+		8B993DA52A038A4300A5B233 /* exercise_home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B993DA42A038A4300A5B233 /* exercise_home.swift */; };
+		8B993DA72A038A5600A5B233 /* exercise_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B993DA62A038A5600A5B233 /* exercise_view.swift */; };
+		8B993DA92A05325C00A5B233 /* FitnessRingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B993DA82A05325C00A5B233 /* FitnessRingCardView.swift */; };
+		8B993DAB2A06238400A5B233 /* FitnessStepsGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B993DAA2A06238400A5B233 /* FitnessStepsGraphView.swift */; };
+		8B993DAD2A09419A00A5B233 /* PersonalInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B993DAC2A09419A00A5B233 /* PersonalInformationView.swift */; };
+		8B993DB02A09629200A5B233 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 8B993DAF2A09629200A5B233 /* Lottie */; };
+		8B993DB42A0964F400A5B233 /* loading_anim.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B993DB32A0964F400A5B233 /* loading_anim.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B993D7629FBA7E100A5B233 /* todocapstone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todocapstone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B993D7929FBA7E100A5B233 /* todocapstoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todocapstoneApp.swift; sourceTree = "<group>"; };
+		8B993D7B29FBA7E100A5B233 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8B993D7D29FBA7E400A5B233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B993D8029FBA7E400A5B233 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B993D8929FBAE3A00A5B233 /* main_screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main_screen.swift; sourceTree = "<group>"; };
+		8B993D8B29FCF45800A5B233 /* avartar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = avartar.swift; sourceTree = "<group>"; };
+		8B993D8D29FD696500A5B233 /* setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setting.swift; sourceTree = "<group>"; };
+		8B993D8F29FE3BE800A5B233 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		8B993D9129FE3C2000A5B233 /* SleepHour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SleepHour.swift; sourceTree = "<group>"; };
+		8B993D9529FEDA8F00A5B233 /* StressInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StressInputView.swift; sourceTree = "<group>"; };
+		8B993D9A2A035C7600A5B233 /* Ring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ring.swift; sourceTree = "<group>"; };
+		8B993D9C2A0361C600A5B233 /* Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
+		8B993DA42A038A4300A5B233 /* exercise_home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exercise_home.swift; sourceTree = "<group>"; };
+		8B993DA62A038A5600A5B233 /* exercise_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exercise_view.swift; sourceTree = "<group>"; };
+		8B993DA82A05325C00A5B233 /* FitnessRingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessRingCardView.swift; sourceTree = "<group>"; };
+		8B993DAA2A06238400A5B233 /* FitnessStepsGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessStepsGraphView.swift; sourceTree = "<group>"; };
+		8B993DAC2A09419A00A5B233 /* PersonalInformationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInformationView.swift; sourceTree = "<group>"; };
+		8B993DB32A0964F400A5B233 /* loading_anim.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading_anim.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B993D7329FBA7E100A5B233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B993DB02A09629200A5B233 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B993D6D29FBA7E000A5B233 = {
+			isa = PBXGroup;
+			children = (
+				8B993D7829FBA7E100A5B233 /* todocapstone */,
+				8B993D7729FBA7E100A5B233 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B993D7729FBA7E100A5B233 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B993D7629FBA7E100A5B233 /* todocapstone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B993D7829FBA7E100A5B233 /* todocapstone */ = {
+			isa = PBXGroup;
+			children = (
+				8B993D7929FBA7E100A5B233 /* todocapstoneApp.swift */,
+				8B993D7B29FBA7E100A5B233 /* ContentView.swift */,
+				8B993D8929FBAE3A00A5B233 /* main_screen.swift */,
+				8B993DB32A0964F400A5B233 /* loading_anim.json */,
+				8B993DAC2A09419A00A5B233 /* PersonalInformationView.swift */,
+				8B993D8B29FCF45800A5B233 /* avartar.swift */,
+				8B993D9129FE3C2000A5B233 /* SleepHour.swift */,
+				8B993D7D29FBA7E400A5B233 /* Assets.xcassets */,
+				8B993D992A035C4900A5B233 /* View */,
+				8B993D972A00F5D800A5B233 /* Model */,
+				8B993D7F29FBA7E400A5B233 /* Preview Content */,
+			);
+			path = todocapstone;
+			sourceTree = "<group>";
+		};
+		8B993D7F29FBA7E400A5B233 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8B993D8029FBA7E400A5B233 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B993D972A00F5D800A5B233 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B993D9A2A035C7600A5B233 /* Ring.swift */,
+				8B993D9C2A0361C600A5B233 /* Step.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8B993D992A035C4900A5B233 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B993D8D29FD696500A5B233 /* setting.swift */,
+				8B993D9529FEDA8F00A5B233 /* StressInputView.swift */,
+				8B993D8F29FE3BE800A5B233 /* Home.swift */,
+				8B993DA42A038A4300A5B233 /* exercise_home.swift */,
+				8B993DA62A038A5600A5B233 /* exercise_view.swift */,
+				8B993DA82A05325C00A5B233 /* FitnessRingCardView.swift */,
+				8B993DAA2A06238400A5B233 /* FitnessStepsGraphView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B993D7529FBA7E100A5B233 /* todocapstone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B993D8429FBA7E400A5B233 /* Build configuration list for PBXNativeTarget "todocapstone" */;
+			buildPhases = (
+				8B993D7229FBA7E100A5B233 /* Sources */,
+				8B993D7329FBA7E100A5B233 /* Frameworks */,
+				8B993D7429FBA7E100A5B233 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = todocapstone;
+			packageProductDependencies = (
+				8B993DAF2A09629200A5B233 /* Lottie */,
+			);
+			productName = todocapstone;
+			productReference = 8B993D7629FBA7E100A5B233 /* todocapstone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B993D6E29FBA7E000A5B233 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8B993D7529FBA7E100A5B233 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 8B993D7129FBA7E000A5B233 /* Build configuration list for PBXProject "todocapstone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B993D6D29FBA7E000A5B233;
+			packageReferences = (
+				8B993DAE2A09629100A5B233 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 8B993D7729FBA7E100A5B233 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B993D7529FBA7E100A5B233 /* todocapstone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B993D7429FBA7E100A5B233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B993DB42A0964F400A5B233 /* loading_anim.json in Resources */,
+				8B993D8129FBA7E400A5B233 /* Preview Assets.xcassets in Resources */,
+				8B993D7E29FBA7E400A5B233 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B993D7229FBA7E100A5B233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B993DA92A05325C00A5B233 /* FitnessRingCardView.swift in Sources */,
+				8B993DA72A038A5600A5B233 /* exercise_view.swift in Sources */,
+				8B993DAB2A06238400A5B233 /* FitnessStepsGraphView.swift in Sources */,
+				8B993D9229FE3C2000A5B233 /* SleepHour.swift in Sources */,
+				8B993D8A29FBAE3A00A5B233 /* main_screen.swift in Sources */,
+				8B993DA52A038A4300A5B233 /* exercise_home.swift in Sources */,
+				8B993D9B2A035C7600A5B233 /* Ring.swift in Sources */,
+				8B993D8E29FD696500A5B233 /* setting.swift in Sources */,
+				8B993D8C29FCF45800A5B233 /* avartar.swift in Sources */,
+				8B993D9629FEDA8F00A5B233 /* StressInputView.swift in Sources */,
+				8B993D7C29FBA7E100A5B233 /* ContentView.swift in Sources */,
+				8B993DAD2A09419A00A5B233 /* PersonalInformationView.swift in Sources */,
+				8B993D9D2A0361C600A5B233 /* Step.swift in Sources */,
+				8B993D9029FE3BE800A5B233 /* Home.swift in Sources */,
+				8B993D7A29FBA7E100A5B233 /* todocapstoneApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8B993D8229FBA7E400A5B233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B993D8329FBA7E400A5B233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B993D8529FBA7E400A5B233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"todocapstone/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.todocapstone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B993D8629FBA7E400A5B233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"todocapstone/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.todocapstone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B993D7129FBA7E000A5B233 /* Build configuration list for PBXProject "todocapstone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B993D8229FBA7E400A5B233 /* Debug */,
+				8B993D8329FBA7E400A5B233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B993D8429FBA7E400A5B233 /* Build configuration list for PBXNativeTarget "todocapstone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B993D8529FBA7E400A5B233 /* Debug */,
+				8B993D8629FBA7E400A5B233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8B993DAE2A09629100A5B233 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8B993DAF2A09629200A5B233 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B993DAE2A09629100A5B233 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8B993D6E29FBA7E000A5B233 /* Project object */;
+}
