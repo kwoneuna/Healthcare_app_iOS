@@ -8,10 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
-    //@State var isContentReady : Bool = false
+    @ObservedObject private var userInfo = UserInfo()
+    @State var isContentReady : Bool = false
+    @State var  isFirstLaunching : Bool = true
+    
+   
+    
     var body: some View {
+            
+        
         TabView{
-            main_screen()
+            main_screen(userInfo: UserInfo())
                 .tabItem {
                     Image(systemName: "checkmark.seal")
                     Text("Main")
@@ -19,26 +26,24 @@ struct ContentView: View {
             avartar()
                 .tabItem({
                     Image(systemName: "person")
-                    Text("아바타")
+                    Text("Avartar")
                 })
+            Setting(userInfo: UserInfo())
+                .tabItem {
+                    Image(systemName: "house")
+                    Text("Setting")
+                }
             
+        }.fullScreenCover(isPresented: $isFirstLaunching) {
+            PersonalInfoView(isFirstLaunching : $isFirstLaunching, userInfo: UserInfo())
         }
-        
-      
+       
+            
         
     }
   
 }
-//mark : 스플래시 스크린
-extension ContentView{
-    var mySplashScreenView: some View{
-        Color.yellow.ignoresSafeArea(.all)
-            .overlay(alignment: .center) {
-                Text("스플래쉬")
-                    .font(.largeTitle)
-            }
-    }
-}
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()

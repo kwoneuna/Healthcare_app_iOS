@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22C65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Fatigue" representedClassName="Fatigue" syncable="YES" codeGenerationType="class">
+        <attribute name="fatigue" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="sleep_score" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Sleep" inverseName="fatigue" inverseEntity="Sleep"/>
+        <relationship name="stress_score" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Stress" inverseName="fatigue" inverseEntity="Stress"/>
+        <fetchedProperty name="stress" optional="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="Fatigue"/>
+        </fetchedProperty>
+    </entity>
+    <entity name="Sleep" representedClassName="Sleep" syncable="YES" codeGenerationType="class">
+        <attribute name="sleepdate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="sleephour" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="sleeptime" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="fatigue" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Fatigue" inverseName="sleep_score" inverseEntity="Fatigue"/>
+    </entity>
+    <entity name="Stress" representedClassName="Stress" syncable="YES" codeGenerationType="class">
+        <attribute name="stress" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="fatigue" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Fatigue" inverseName="stress_score" inverseEntity="Fatigue"/>
+    </entity>
+</model>

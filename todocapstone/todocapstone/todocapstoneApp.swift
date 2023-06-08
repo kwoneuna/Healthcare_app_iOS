@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct todocapstoneApp: App {
+    @StateObject private var userInfo = UserInfo()
+    @StateObject private var dataController = DataController()
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.managedObjectContext,dataController.container.viewContext)
+
         }
     }
 }
